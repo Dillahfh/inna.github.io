@@ -1,18 +1,16 @@
-
 let navbar = document.querySelector('.navbar');
-if (navbar) {
-    document.querySelector('#menu-bar').onclick = () => {
-        navbar.classList.toggle('active');
-    };
+document.querySelector ('#menu-bar').onclick=() =>{
+  navbar.classList.toggle('active');
 }
-
 
 let search = document.querySelector('.search');
-if (search) {
-    document.querySelector('#search').onclick = () => {
-        search.classList.toggle('active');
-    };
+document.querySelector ('#search').onclick=() =>{
+  search.classList.toggle('active');
 }
+
+
+
+
 
 var swiper = new Swiper(".product-row", {
     slidesPerView: 1,
